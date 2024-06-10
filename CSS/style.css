@@ -35,7 +35,7 @@ nav {
     font-weight: 40px;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
@@ -48,26 +48,26 @@ a {
     text-decoration: none;
 }
 
-header {
-    background-color: #3F3F3F;
-    color: #C0C0C0;
-    padding: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-header nav ul {
-    display: flex;
-    gap: 24px;
-}
+    header {
+        background-color: #3F3F3F;
+        color: #C0C0C0;
+        padding: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
 
-header a {
-    color: #C0C0C0;
-}
+    header nav ul {
+        display: flex;
+        gap: 24px;
+    }
 
-
-
+    header a {
+        color: #C0C0C0;
+    }
 
 
 .titulo-portada {
@@ -78,22 +78,22 @@ header a {
     margin-bottom: 12px;
 }
 
-.introduccion{
+.introduccion {
     padding: 10px;
     width: 100%;
     font-size: 20px;
     margin-bottom: 100px;
 }
 
-.imagen-portada{
+.imagen-portada {
     display: flex;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 12px;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.imagen-portada img{
+.imagen-portada img {
     width: 100%;
     height: fit-content;
 }
@@ -102,13 +102,13 @@ header a {
 
 
 
-.biografia-fondo{
+.biografia-fondo {
     background-color: #3F3F3F;
     padding: 10px;
     height: 900px;
 }
 
-.titulo-biografia{
+.titulo-biografia {
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
@@ -118,7 +118,7 @@ header a {
     margin-right: 90vh;
 }
 
-.biografia-documental{
+.biografia-documental {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,7 +127,7 @@ header a {
 }
 
 
-.biografia{
+.biografia {
     border: #3F3F3F 2px solid;
     width: 700px;
     color: #DCDCDC;
@@ -135,40 +135,39 @@ header a {
     font-size: 18px;
 }
 
-.biografia h3{
+.biografia h3 {
     font-size: 30px;
 }
 
 
-.documental{
+.documental {
     display: flex;
-    gap: 10px;
     width: 700px;
     color: #DCDCDC;
     font-size: 18px;
     flex-direction: column;
-    height: 50vh;
+    height: 500px;
 }
 
-.documental h3{
+.documental h3 {
     font-size: 30px;
 }
 
-.documental p{
+.documental p {
     width: fit-content;
 }
 
-.documental iframe{
+.documental iframe {
+    margin-top: 30px;
     border: #C0C0C0 2px solid;
-    display: flex;
-    height: 400px;
+    height: 500px;
 }
 
 
 
 
 
-.titulo-novedades{
+.titulo-novedades {
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
@@ -179,7 +178,7 @@ header a {
     margin-right: 90vh;
 }
 
-.tapia-messi{
+.tapia-messi {
     border: #3F3F3F 2px solid;
     background-color: #787878;
     display: flex;
@@ -189,26 +188,26 @@ header a {
     color: white;
 }
 
-.tapia-messi h3{
+.tapia-messi h3 {
     padding: 12px;
     font-size: 30px;
     height: 60px;
 }
 
-.tapia-messi p{
+.tapia-messi p {
     padding: 12px;
     font-size: 18px;
     margin-top: 12px;
     height: 60px;
 }
 
-.tapia-messi img{
+.tapia-messi img {
     height: 300px;
     border: #3F3F3F 2px solid;
 }
 
 
-.tapia-subcampeon{
+.tapia-subcampeon {
     border: #3F3F3F 2px solid;
     background-color: #F8F4F4;
     display: flex;
@@ -218,49 +217,49 @@ header a {
     color: #3F3F3F;
 }
 
-.tapia-subcampeon h3{
+.tapia-subcampeon h3 {
     padding: 12px;
     font-size: 30px;
     height: 60px;
 }
 
-.tapia-subcampeon p{
+.tapia-subcampeon p {
     padding: 12px;
     font-size: 18px;
     margin-top: 12px;
     height: 60px;
 }
 
-.tapia-subcampeon img{
+.tapia-subcampeon img {
     height: 300px;
     border: #3F3F3F 2px solid;
 }
 
 
-.tapia-campeon{
+.tapia-campeon {
     border: #3F3F3F 2px solid;
-    background-color:#505050 ;
+    background-color: #505050;
     display: flex;
     padding: 12px;
     margin-top: 12px;
     margin-bottom: 70px;
-    color: #F8F4F4 ;
+    color: #F8F4F4;
 }
 
-.tapia-campeon h3{
+.tapia-campeon h3 {
     padding: 12px;
     font-size: 30px;
     height: 60px;
 }
 
-.tapia-campeon p{
+.tapia-campeon p {
     padding: 12px;
     font-size: 18px;
     margin-top: 12px;
     height: 60px;
 }
 
-.tapia-campeon img{
+.tapia-campeon img {
     height: 300px;
     border: #3F3F3F 2px solid;
 }
@@ -269,7 +268,7 @@ header a {
 
 
 
-.titulo-destacados{
+.titulo-destacados {
     background-color: #A90000;
     width: 130px;
     color: #DCDCDC;
@@ -278,27 +277,27 @@ header a {
     margin-bottom: 12px;
 }
 
-.videos-destacados{
+.videos-destacados {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 400px;
     padding: 12px;
     background-color: #F8F4F4;
     border-top: #787878 2px solid;
 }
 
-.videos-destacados iframe{
+.videos-destacados iframe {
     height: fit-content;
     width: 100%;
     object-fit: contain;
 }
 
-.videos-destacados p{
+.videos-destacados p {
     width: 300px;
-} 
+}
 
-.videos-destacados div{
+.videos-destacados div {
     padding: 3px;
     width: 350px;
 }
@@ -307,23 +306,23 @@ header a {
 
 
 
-.cancha-agus-tapia{
+.cancha-agus-tapia {
     border-bottom: #DCDCDC;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
-    background-color:#3F3F3F;
+    background-color: #3F3F3F;
 }
 
-.cancha-agus-tapia img{
+.cancha-agus-tapia img {
     width: 600px;
     height: 500px;
     border: #C0C0C0 2px solid;
 }
 
-.cancha-agus-tapia p{
-    width: 400px ;
+.cancha-agus-tapia p {
+    width: 400px;
     display: flex;
     padding-left: 12px;
     padding-right: 12px;
@@ -331,14 +330,14 @@ header a {
     font-size: 18px;
 }
 
-.cancha-agus-tapia h3{
+.cancha-agus-tapia h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     color: #F8F4F4;
 }
 
-.cancha-agus-tapia iframe{
+.cancha-agus-tapia iframe {
     height: 500px;
     width: 600px;
 }
@@ -346,7 +345,7 @@ header a {
 
 
 
-.titulo-contacto{
+.titulo-contacto {
     font-size: 30px;
     margin-top: 70px;
     background-color: #A90000;
@@ -357,20 +356,23 @@ header a {
 
 }
 
-.formulario-contenedor{
-    background-color:#F8F4F4;
+.formulario-contenedor {
+    background-color: #F8F4F4;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     height: 700px;
     padding: 20px
 }
 
-.formulario{
+.formulario-contenedor article,
+.formulario-contenedor img {
+    width: 50%;
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: fit-content;
+    justify-content: space-around;
     height: 500px;
     padding-left: 40px;
     padding-right: 40px;
@@ -379,31 +381,37 @@ header a {
     align-items: baseline;
 }
 
-.formulario input, .formulario textarea{
+.formulario input,
+.formulario label {
     width: fit-content;
     height: fit-content;
-
 }
 
-.formulario id{
+
+.formulario id {
     width: fit-content;
 }
 
-.formulario p{
+.formulario p {
     font-size: 30px;
     font-family: "Bebas Neue", sans-serif
 }
 
-.imagen-formulario{
-    width: fit-content;
+.imagen-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 100%
 }
 
+.imagen-formulario img {
+    height: 500px;
+    width: 500px;
+}
 
-
-
-.caja-footer{
+.caja-footer {
     display: flex;
     height: 300px;
     background-color: #3F3F3F;
-
 }
