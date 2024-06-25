@@ -55,23 +55,24 @@ a {
 /*estilos del header */
 
 
-.container{
+.container {
     background-color: #3F3F3F;
-    border-radius: 23px;
+    border-radius: 12px;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: "Bebas Neue", sans-serif;
     color: #DCDCDC;
     font-size: 30px;
 }
 
-.nav-link{
-    color:#DCDCDC;
+.nav-link {
+    color: #DCDCDC;
 }
 
 header {
     background-color: #3F3F3F;
-    color:#3F3F3F;
+    color: #3F3F3F;
     padding: 2rem;
 
     display: flex;
@@ -79,9 +80,7 @@ header {
     align-items: center;
 }
 
-header a {
-    color: #C0C0C0;
-}
+
 
 header form {
     display: none;
@@ -134,7 +133,7 @@ header form {
 .titulo-portada {
     background-color: #A90000;
     width: fit-content;
-    color:#DCDCDC;
+    color: #DCDCDC;
     padding: 12px;
     margin-bottom: 12px;
 }
@@ -149,7 +148,6 @@ header form {
 .imagen-portada {
     display: flex;
     align-items: center;
-    margin-top: 20px;
     margin-bottom: 12px;
     justify-content: center;
 }
@@ -159,8 +157,8 @@ header form {
     height: fit-content;
 }
 
-@media(max-width: 480px){
-    article{
+@media(max-width: 480px) {
+    article {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,73 +166,63 @@ header form {
 }
 
 
-/* estilos de b¿la sección biografía */
 
-.biografia-fondo {
-    background-color: #3F3F3F;
-    padding: 10px;
-    height: 900px;
-}
 
 .titulo-biografia {
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
     text-align: center;
-
-    border-radius: 24px;
-    width: 30%;
-    margin-left: 70vh;
-    margin-right: 70vh;
+    color: #DCDCDC;
+    padding: 12px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .biografia-documental {
+    color: #DCDCDC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 700px;
-    padding: 20px;
 }
 
+.biografia-documental iframe {
+    width: 100%;
+    height: 500px;
+}
 
 .biografia {
-    border: #3F3F3F 2px solid;
-    width: 700px;
-    color: #DCDCDC;
-    height: 50vh;
-    font-size: 18px;
+    background-color: #3F3F3F;
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: column;
 }
-
-.biografia h3 {
-    font-size: 30px;
-}
-
 
 .documental {
+    background-color: #787878;
     display: flex;
-    width: 700px;
-    color: #DCDCDC;
-    font-size: 18px;
     flex-direction: column;
-    height: 500px;
-}
-
-.documental h3 {
-    font-size: 30px;
-}
-
-.documental p {
-    width: fit-content;
-}
-
-.documental iframe {
-    margin-top: 30px;
-    border: #C0C0C0 2px solid;
-    height: 500px;
+    padding: 12px;
+    gap: 1rem;
+    width: 100%;
 }
 
 
+@media (max-width:992px) {
+    .biografia-documental {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .titulo-biografia {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+    }
+}
 
 /* estilos de la sección novedades */
 
@@ -242,15 +230,17 @@ header form {
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
-    margin-top: 70px;
     text-align: center;
-    border-radius: 24px;
-    margin-left: 90vh;
-    margin-right: 90vh;
+    color: #DCDCDC;
+    padding: 12px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .tapia-messi {
-    border: #3F3F3F 2px solid;
+    border-top: #3F3F3F 2px solid;
+    border-bottom: #3F3F3F 2px solid;
     background-color: #787878;
     display: flex;
     padding: 12px;
@@ -262,14 +252,11 @@ header form {
 .tapia-messi h3 {
     padding: 12px;
     font-size: 30px;
-    height: 60px;
+    height: fit-content;
 }
 
 .tapia-messi p {
     padding: 12px;
-    font-size: 18px;
-    margin-top: 12px;
-    height: 60px;
 }
 
 .tapia-messi img {
@@ -279,7 +266,8 @@ header form {
 
 
 .tapia-subcampeon {
-    border: #3F3F3F 2px solid;
+    border-top: #3F3F3F 2px solid;
+    border-bottom: #3F3F3F 2px solid;
     background-color: #F8F4F4;
     display: flex;
     padding: 12px;
@@ -291,14 +279,11 @@ header form {
 .tapia-subcampeon h3 {
     padding: 12px;
     font-size: 30px;
-    height: 60px;
+    height: fit-content;
 }
 
 .tapia-subcampeon p {
     padding: 12px;
-    font-size: 18px;
-    margin-top: 12px;
-    height: 60px;
 }
 
 .tapia-subcampeon img {
@@ -308,7 +293,8 @@ header form {
 
 
 .tapia-campeon {
-    border: #3F3F3F 2px solid;
+    border-top: #3F3F3F 2px solid;
+    border-bottom: #3F3F3F 2px solid;
     background-color: #505050;
     display: flex;
     padding: 12px;
@@ -320,14 +306,11 @@ header form {
 .tapia-campeon h3 {
     padding: 12px;
     font-size: 30px;
-    height: 60px;
+    height: fit-content;
 }
 
 .tapia-campeon p {
     padding: 12px;
-    font-size: 18px;
-    margin-top: 12px;
-    height: 60px;
 }
 
 .tapia-campeon img {
@@ -337,108 +320,236 @@ header form {
 
 
 
+
+
+@media(max-width:768px) {
+    .tapia-messi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tapia-messi img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tapia-campeon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tapia-campeon img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tapia-subcampeon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tapia-subcampeon img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:992px) {
+    .titulo-novedades {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
 /* estilos de la sección destacados */
 
 .titulo-destacados {
     background-color: #A90000;
-    width: 130px;
     color: #DCDCDC;
     padding: 12px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .videos-destacados {
+    background-color: #F8F4F4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 400px;
-    padding: 12px;
-    background-color: #F8F4F4;
-    border-top: #787878 2px solid;
-}
 
-.videos-destacados iframe {
-    height: fit-content;
-    width: 100%;
-    object-fit: contain;
-}
-
-.videos-destacados p {
-    width: 300px;
 }
 
 .videos-destacados div {
-    padding: 3px;
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
 }
 
+.videos-destacados iframe {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
 
 
 
 
 .cancha-agus-tapia {
-    border-bottom: #DCDCDC;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
     background-color: #3F3F3F;
+    color: #DCDCDC;
+    padding: 1rem;
 }
 
 .cancha-agus-tapia img {
-    width: 600px;
-    height: 500px;
-    border: #C0C0C0 2px solid;
-}
-
-.cancha-agus-tapia p {
-    width: 400px;
-    display: flex;
-    padding-left: 12px;
-    padding-right: 12px;
-    color: #F8F4F4;
-    font-size: 18px;
-}
-
-.cancha-agus-tapia h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #F8F4F4;
+    width: 100%;
+    height: 100%;
 }
 
 .cancha-agus-tapia iframe {
-    height: 500px;
-    width: 600px;
+    width: 100%;
+}
+
+.cancha-agus-tapia h3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cancha-agus-tapia p {
+    text-align: center;
 }
 
 
 
-/* estilos de la sección contacto */
 
+@media(max-width:768px) {
+    .titulo-destacados {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .videos-destacados {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .videos-destacados div {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .videos-destacados iframe {
+        margin-top: 1rem;
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .cancha-agus-tapia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
+}
+
+@media(min-width:1200px) {
+    .videos-destacados {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .videos-destacados iframe {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+
+    .cancha-agus-tapia {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .cancha-historia {
+        padding: 1rem;
+    }
+    .cancha-historia h3{
+        font-size: 40px;
+    }
+
+    .cancha-agus-tapia img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .cancha-agus-tapia iframe {
+        width: 400px;
+        height: 400px ;
+    }
+}
+
+
+@media(min-width:1560px) {
+    .videos-destacados iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cancha-agus-tapia img{
+        width: 600px;
+        height: 500px;
+    }
+    .cancha-agus-tapia iframe{
+        width: 600px;
+        height: 500px;
+    }
+}
+
+
+
+
+
+/* estilos de la sección contacto*/
 
 .titulo-contacto {
-    font-size: 30px;
-    margin-top: 70px;
     background-color: #A90000;
-    width: 130px;
     color: #DCDCDC;
     padding: 12px;
-    margin-bottom: 12px;
-
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
 }
 
-.formulario-contenedor{
+.formulario-contenedor {
     background-color: #F8F4F4;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.formulario{
+.formulario {
     display: grid;
-    background-color:#C0C0C0;
+    background-color: #C0C0C0;
     width: 90%;
     gap: 2rem;
     max-width: 400px;
@@ -450,16 +561,16 @@ header form {
     margin-right: 23px;
 }
 
-.formulario p{
+.formulario p {
     font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
 }
 
-.grupo-formulario{
+.grupo-formulario {
     position: relative;
 }
 
-.form-input{
+.form-input {
     width: 100%;
     height: 40px;
     font-size: 12px;
@@ -468,57 +579,63 @@ header form {
     font-size: 20px;
 }
 
-.textarea{
+.textarea {
     width: 100%;
     height: 40px;
     font-size: 20px;
 }
 
-.imagen-contacto{
+.imagen-contacto {
     display: flex;
     padding: 1rem;
     align-items: center;
     flex-direction: column;
 }
 
-.imagen-contacto img{
+.imagen-contacto img {
     border-radius: 3px;
 }
 
 
 /* responsive de las sección contacto */
 @media (max-width: 468px) {
-    .imagen-contacto img{
+    .imagen-contacto img {
         width: 100%;
         height: fit-content;
     }
-    
+
 }
 
 
 
-@media(max-width: 992px){
-    .formulario-contenedor{
+@media(max-width: 992px) {
+    .formulario-contenedor {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .imagen-contacto{
+    .imagen-contacto {
         width: 100%;
         height: fit-content;
+    }
+
+    .titulo-contacto {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 
 /* estilos del footer */
-.footer{
+.footer {
     background-color: #505050;
     margin-top: 50px;
 }
 
-@media(min-width: 468px){
-    .contenedor-footer{
+@media(min-width: 468px) {
+    .contenedor-footer {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -526,8 +643,8 @@ header form {
     }
 }
 
-@media(min-width: 992px){
-    .contenedor-footer{
+@media(min-width: 992px) {
+    .contenedor-footer {
         display: flex;
         flex-direction: row;
         align-items: center;
