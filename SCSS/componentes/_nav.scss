@@ -1,0 +1,18 @@
+.container {
+    background-color: #3F3F3F;
+    border-radius: 12px;
+}
+
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    color: #DCDCDC;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #DCDCDC;
+
+    &:hover {
+        color: #A90000;
+    }
+}

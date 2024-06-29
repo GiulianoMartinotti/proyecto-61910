@@ -1,0 +1,14 @@
+//Import de archivo base// 
+@import "./base";
+
+//Import de Componentes//
+@import "./componentes/header";
+@import "./componentes/nav";
+@import "./componentes/footer";
+
+//Import de las pages//
+@import "./pages/index";
+@import "./pages/biografia";
+@import "./pages/novedades";
+@import "./pages/destacados";
+@import "./pages/contacto";

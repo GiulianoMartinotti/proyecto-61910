@@ -1,0 +1,147 @@
+
+
+.titulo-destacados {
+    background-color: #A90000;
+    color: #DCDCDC;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.videos-destacados {
+    background-color: #F8F4F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.videos-destacados div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.videos-destacados iframe {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+
+
+.cancha-agus-tapia {
+    background-color: #3F3F3F;
+    color: #DCDCDC;
+    padding: 1rem;
+}
+
+.cancha-agus-tapia img {
+    width: 100%;
+    height: 100%;
+}
+
+.cancha-agus-tapia iframe {
+    width: 100%;
+}
+
+.cancha-agus-tapia h3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cancha-agus-tapia p {
+    text-align: center;
+}
+
+
+
+//Responsive//
+@media(max-width:768px) {
+    .titulo-destacados {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .videos-destacados {
+        @include flex-media(column, center);
+    }
+
+    .videos-destacados div {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .videos-destacados iframe {
+        margin-top: 1rem;
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .cancha-agus-tapia {
+        @include flex-media (column, center);
+        padding: 1rem;
+    }
+}
+
+@media(min-width:1200px) {
+    .videos-destacados {
+        @include flex-media(row, space-evenly);
+    }
+
+    .videos-destacados iframe {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+
+    .cancha-agus-tapia {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .cancha-historia {
+        padding: 1rem;
+    }
+    .cancha-historia h3{
+        font-size: 40px;
+    }
+
+    .cancha-agus-tapia img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .cancha-agus-tapia iframe {
+        width: 400px;
+        height: 400px ;
+    }
+}
+
+
+@media(min-width:1560px) {
+    .videos-destacados iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cancha-agus-tapia img{
+        width: 600px;
+        height: 500px;
+    }
+    .cancha-agus-tapia iframe{
+        width: 600px;
+        height: 500px;
+    }
+}

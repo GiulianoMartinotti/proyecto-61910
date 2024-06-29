@@ -1,0 +1,24 @@
+
+
+.footer {
+    background-color: #505050;
+    margin-top: 50px;
+}
+
+@media(min-width: 468px) {
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 992px) {
+    .contenedor-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

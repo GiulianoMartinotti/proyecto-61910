@@ -1,0 +1,107 @@
+
+
+.titulo-contacto {
+    background-color: #A90000;
+    color: #DCDCDC;
+    padding: 12px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+.formulario-contenedor {
+    background-color: #F8F4F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.formulario {
+    display: grid;
+    background-color: #C0C0C0;
+    width: 90%;
+    gap: 2rem;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.formulario p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+
+.grupo-formulario {
+    position: relative;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    padding: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.boton-enviar{
+    &:hover{
+        color:#DCDCDC;
+        background-color: #A90000;
+    }
+}
+
+
+
+.textarea {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.imagen-contacto {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-contacto img {
+    border-radius: 3px;
+}
+
+
+//Responsive//
+@media (max-width: 468px) {
+    .imagen-contacto img {
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+
+
+@media(max-width: 992px) {
+    .formulario-contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .titulo-contacto {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

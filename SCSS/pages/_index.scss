@@ -1,0 +1,39 @@
+
+
+.titulo-portada {
+    background-color: #A90000;
+    width: fit-content;
+    color: #DCDCDC;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.introduccion {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.imagen-portada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.imagen-portada img {
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+//Responsive//
+@media(max-width: 480px) {
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

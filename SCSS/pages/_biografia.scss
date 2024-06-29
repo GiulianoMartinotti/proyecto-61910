@@ -1,0 +1,57 @@
+
+
+.titulo-biografia {
+    background-color: #A90000;
+    color: #DCDCDC;
+    padding: 12px;
+    text-align: center;
+    color: #DCDCDC;
+    padding: 12px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.biografia-documental {
+    color: #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.biografia-documental iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.biografia {
+    background-color: #3F3F3F;
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: column;
+}
+
+.documental {
+    background-color: #787878;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 1rem;
+    width: 100%;
+}
+
+//Responsive//
+@media (max-width:992px) {
+    .biografia-documental {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-biografia {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+    }
+}
