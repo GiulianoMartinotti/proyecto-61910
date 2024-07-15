@@ -1,10 +1,11 @@
-
-
+//Estilos//
 .footer {
     background-color: #505050;
     margin-top: 50px;
 }
+//Estilos//
 
+//Responsive//
 @media(min-width: 468px) {
     .contenedor-footer {
         display: flex;
@@ -22,3 +23,4 @@
         justify-content: space-evenly;
     }
 }
+//Responsive//

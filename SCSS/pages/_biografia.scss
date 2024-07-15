@@ -1,6 +1,7 @@
-
-
+//Estilos (animaciones incluidas)//
 .titulo-biografia {
+    -webkit-animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
@@ -40,6 +41,8 @@
     gap: 1rem;
     width: 100%;
 }
+//Estilos (animaciones incluidas)//
+
 
 //Responsive//
 @media (max-width:992px) {
@@ -55,3 +58,4 @@
         border-radius: 0;
     }
 }
+//Responsive//

@@ -1,6 +1,7 @@
-
-
+//Estilos (animaciones incluidas)//
 .titulo-destacados {
+    -webkit-animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
     background-color: #A90000;
     color: #DCDCDC;
     padding: 12px;
@@ -59,7 +60,7 @@
 .cancha-agus-tapia p {
     text-align: center;
 }
-
+//Estilos (animaciones incluidas)//
 
 
 //Responsive//
@@ -145,3 +146,4 @@
         height: 500px;
     }
 }
+//Responsive//

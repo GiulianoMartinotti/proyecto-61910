@@ -1,6 +1,7 @@
-
-
+//Estilos (animaciones incluidas)//
 .titulo-novedades {
+    -webkit-animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: tracking-in-expand-fwd-top 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000);
     background-color: #A90000;
     color: #DCDCDC;
     text-align: center;
@@ -23,12 +24,13 @@
 
 .tapia-messi h3 {
     padding: 12px;
-    font-size: 30px;
+    font-size: 40px;
     height: fit-content;
 }
 
 .tapia-messi p {
     padding: 12px;
+    font-size: 18px;
 }
 
 .tapia-messi img {
@@ -50,12 +52,13 @@
 
 .tapia-subcampeon h3 {
     padding: 12px;
-    font-size: 30px;
+    font-size: 40px;
     height: fit-content;
 }
 
 .tapia-subcampeon p {
     padding: 12px;
+    font-size: 18px;
 }
 
 .tapia-subcampeon img {
@@ -77,19 +80,20 @@
 
 .tapia-campeon h3 {
     padding: 12px;
-    font-size: 30px;
+    font-size: 40px;
     height: fit-content;
 }
 
 .tapia-campeon p {
     padding: 12px;
+    font-size: 18px;
 }
 
 .tapia-campeon img {
     height: 300px;
     border: #3F3F3F 2px solid;
 }
-
+//Estilos (animaciones incluidas)//
 
 
 //Responsive//
@@ -129,3 +133,4 @@
         margin-right: 0;
     }
 }
+//Responsive//
